@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NSP Computer Engineering Department</title>
+    <link rel="stylesheet" href="style.css">
+    <style>.container{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px 20px;
+}
+
+.contact-box{
+    width:100%;
+    max-width:1100px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(15px);
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 20px 40px rgba(0,0,0,0.4);
+}
+
+/* Left Section */
+.contact-info{
+    padding:50px;
+    color:#1c8fec;
+}
+
+.contact-info h2{
+    font-size:28px;
+    margin-bottom:20px;
+}
+
+.contact-info p{
+    margin-bottom:15px;
+    font-size:14px;
+    line-height:1.6;
+}
+
+.info-box{
+    margin-top:25px;
+}
+
+.info-box div{
+    margin-bottom:15px;
+}
+
+/* Right Section */
+.contact-form{
+    background:#060f5a;
+    padding:50px;
+}
+
+.contact-form h2{
+    margin-bottom:25px;
+    color:#203a43;
+}
+
+.form-group{
+    margin-bottom:20px;
+}
+
+.form-group input,
+.form-group textarea{
+    width:100%;
+    padding:12px 15px;
+    border-radius:8px;
+    border:1px solid #392cec;
+    outline:none;
+    transition:0.3s;
+    font-size:14px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus{
+    border-color:#2c5364;
+    box-shadow:0 0 8px rgba(44,83,100,0.3);
+}
+
+.form-group textarea{
+    resize:none;
+    height:120px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:linear-gradient(135deg,#00aef8,#02080a);
+    color:#2c1ef7;
+    font-size:15px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}</style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">💻 Computer Engineering</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="lab.html">Labs</a>
+            <a href="courses.html">Courses</a>
+            <a href="staff.html">Staff</a>      
+                  <a href="contact.html">contact</a>
+
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Computer Engineering Department</h1>
+        <p>Innovating the Future with Technology & Programming</p>
+        <button><a href="lab.html">eXPLORE</a> </button>
+    </section>
+
+
+<div class="container">
+    <div class="contact-box">
+
+        <!-- Left Info Section -->
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>Have questions about admissions, academics, or placements? 
+               Feel free to contact the Computer Engineering Department.</p>
+
+            <div class="info-box">
+                <div><strong>📍 Address:</strong><br>
+                NSP College of Engineering,<br>
+                Computer Engineering Department,<br>
+                City, State, India</div>
+
+                <div><strong>📞 Phone:</strong><br>
+                +91 98765 43210</div>
+
+                <div><strong>📧 Email:</strong><br>
+                compengg@xyzcollege.edu</div>
+
+                <div><strong>🕒 Office Hours:</strong><br>
+                Mon - Fri : 9:00 AM - 5:00 PM</div>
+            </div>
+        </div>
+
+        <!-- Right Form Section -->
+        <div class="contact-form">
+            <h2>Send Message</h2>
+            <form>
+                <div class="form-group">
+                    <input type="text" placeholder="Full Name" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" placeholder="Subject" required>
+                </div>
+
+                <div class="form-group">
+                    <textarea placeholder="Your Message" required></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© NSP 2026 Computer Engineering Department | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
